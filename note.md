@@ -1,7 +1,7 @@
 INS - IMU - Linearly accumulating error in velocity and heading, exponentially accumulating error in position.
 
 SINS/DVL integrated navigation structure - The integration of SINS and DVL in a navigation system aims to compensate for the limitations of each technology and enhance overall navigation accuracy.
-    -- Initial Alignment: The SINS component is initially aligned using calibration routines to establish an accurate reference frame based on Earth's gravity and magnetic field. This alignment process helps in reducing the errors associated with the inertial sensors.
+    Initial Alignment: The SINS component is initially aligned using calibration routines to establish an accurate reference frame based on Earth's gravity and magnetic field. This alignment process helps in reducing the errors associated with the inertial sensors.
 
     Inertial Navigation: The SINS continuously estimates the vehicle's position, velocity, and attitude by integrating the measurements from the accelerometers and gyroscopes. However, errors in the SINS measurements accumulate over time, leading to drift.
 
